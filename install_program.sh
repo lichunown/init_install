@@ -55,3 +55,25 @@ make
 sudo make install
 
 cd ..
+
+## for python
+
+# # pip
+# sudo apt install python-pip
+# mkdir ~/.pip
+# echo "[global]\n\
+# index-url = https://linux.xidian.edu.cn/mirrors/pypi/web/simple/" > ~/.pip/pip.conf
+
+# # virtualenv
+# cd ~
+# sudo apt install virtualenv
+# pip install virtualenv
+# virtualenv py3 --python=python3
+# source ~/py3/bin/activate
+# pip install tensorflow
+# pip install keras
+# pip install matplotlib
+# pip install numpy
+# pip install pandas
+
+# wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
