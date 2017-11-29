@@ -16,6 +16,21 @@ fi
 tar vxjf Sublime\ Text\ 2.0.2\ x64.tar.bz2
 sudo mv Sublime\ Text\ 2 /opt/
 sudo ln -s /opt/Sublime\ Text\ 2/sublime_text /usr/bin/sublime
+echo "[Desktop Entry]\
+Version=1.0\
+Type=Application\
+Name=sublime\
+Name[zh_CN]=sublime\
+Comment=sublime\
+Exec=/opt/Sublime\ Text\ 2/sublime_text\
+Icon=/opt/Sublime\ Text\ 2/Icon/48x48/sublime_text.png\
+Terminal=false\
+StartupNotify=true\
+X-DBUS-ServiceName=\
+X-DBUS-StartupType=\
+X-KDE-SubstituteUID=false\
+X-KDE-Username=owen" >  ~/sublime.desktop
+
 
 # sqlite3
 sudo apt-get install -y sqlite3 
