@@ -14,3 +14,4 @@ sudo apt update
 
 sudo sh ./install_program.sh
 sh ./change_home.sh
+sh ./clean.sh
