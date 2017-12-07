@@ -23,7 +23,7 @@ git config --global credential.helper store
 #StartupNotify=true\n\
 #X-DBUS-ServiceName=\n\
 #X-DBUS-StartupType=\n\
-3X-KDE-SubstituteUID=false\n\
+#3X-KDE-SubstituteUID=false\n\
 #X-KDE-Username=owen" >  ~/sublime.desktop
 #chmod +x ~/sublime.desktop
 
